@@ -36,6 +36,12 @@ export default {
       type: 'datetime',
     },
     {
+      name: 'show_more',
+      title: 'Show More?',
+      type: 'boolean',
+      initialValue: false
+    },
+    {
       name: 'body',
       title: 'Body',
       type: 'blockContent',

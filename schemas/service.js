@@ -32,13 +32,19 @@ export default {
     },
     {
       name: 'icon',
-      title: 'Upload SVG Icon',
-      type: 'svgUploadPreview',
+      title: 'Url of the SVG on the local drive',
+      type: 'string',
     },
     {
       name: 'publishedAt',
       title: 'Published at',
       type: 'datetime',
+    },
+    {
+      name: 'show_more',
+      title: 'Show More?',
+      type: 'boolean',
+      initialValue: false
     },
     {
       name: 'body',
